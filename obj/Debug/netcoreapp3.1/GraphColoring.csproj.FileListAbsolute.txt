@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\GraphColoring\bin\Debug\netcoreapp3.1\GraphColoring.exe
+C:\Users\ASUS\source\repos\GraphColoring\bin\Debug\netcoreapp3.1\GraphColoring.deps.json
+C:\Users\ASUS\source\repos\GraphColoring\bin\Debug\netcoreapp3.1\GraphColoring.runtimeconfig.json
+C:\Users\ASUS\source\repos\GraphColoring\bin\Debug\netcoreapp3.1\GraphColoring.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\GraphColoring\bin\Debug\netcoreapp3.1\GraphColoring.dll
+C:\Users\ASUS\source\repos\GraphColoring\bin\Debug\netcoreapp3.1\GraphColoring.pdb
+C:\Users\ASUS\source\repos\GraphColoring\obj\Debug\netcoreapp3.1\GraphColoring.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\GraphColoring\obj\Debug\netcoreapp3.1\GraphColoring.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\GraphColoring\obj\Debug\netcoreapp3.1\GraphColoring.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\GraphColoring\obj\Debug\netcoreapp3.1\GraphColoring.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\GraphColoring\obj\Debug\netcoreapp3.1\GraphColoring.dll
+C:\Users\ASUS\source\repos\GraphColoring\obj\Debug\netcoreapp3.1\GraphColoring.pdb
+C:\Users\ASUS\source\repos\GraphColoring\obj\Debug\netcoreapp3.1\GraphColoring.genruntimeconfig.cache
