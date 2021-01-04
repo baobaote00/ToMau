@@ -2,15 +2,15 @@
 {
     class Side
     {
-        private Points point1;
-        private Points point2;
+        private Point point1;
+        private Point point2;
         private string name;
 
-        internal Points Point1 { get => point1; set => point1 = value; }
-        internal Points Point2 { get => point2; set => point2 = value; }
+        internal Point Point1 { get => point1; set => point1 = value; }
+        internal Point Point2 { get => point2; set => point2 = value; }
         public string Name { get => name; set => name = value; }
 
-        public Side(Points no1, Points no2)
+        public Side(Point no1, Point no2)
         {
             this.Point1 = no1;
             this.Point2 = no2;

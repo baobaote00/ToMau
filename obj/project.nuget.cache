@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ULaIblBFGsgLQ6Lvfg8eQq4R6GvJ6vtDld5l7LgomzQ06Q1RGRnCMKpwvCV8hvEts14+XUclhfMKn5oWqHCG5w==",
+  "dgSpecHash": "lGmqWdr2LgiVHZ9hYpS++QKNPRCRAM8MlK0ZHRt6rJZblzHkRB3dvAvalBB0LpAqOpDSKDGKs/KAzSFv6Pa7Qw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\GraphColoring\\GraphColoring.csproj",
+  "projectFilePath": "D:\\git\\ToMau\\GraphColoring.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

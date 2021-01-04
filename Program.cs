@@ -9,34 +9,34 @@ namespace GraphColoring
         static void Main(string[] args)
         {
             List<Side> side = new List<Side>();
-            List<Points> points = new List<Points>();
+            List<Point> points = new List<Point>();
 
-            points.Add(new Points("RR"));
-            points.Add(new Points("AM"));
-            points.Add(new Points("AC"));
-            points.Add(new Points("RO"));
-            points.Add(new Points("AP"));
-            points.Add(new Points("PA"));
-            points.Add(new Points("MA"));
-            points.Add(new Points("TO"));
-            points.Add(new Points("PI"));
-            points.Add(new Points("CE"));
-            points.Add(new Points("RN"));
-            points.Add(new Points("PB"));
-            points.Add(new Points("PE"));
-            points.Add(new Points("AL"));
-            points.Add(new Points("SE"));
-            points.Add(new Points("BA"));
-            points.Add(new Points("MT"));
-            points.Add(new Points("GO"));
-            points.Add(new Points("MS"));
-            points.Add(new Points("MG"));
-            points.Add(new Points("ES"));
-            points.Add(new Points("RJ"));
-            points.Add(new Points("SP"));
-            points.Add(new Points("PR"));
-            points.Add(new Points("SC"));
-            points.Add(new Points("RS"));
+            points.Add(new Point("RR"));
+            points.Add(new Point("AM"));
+            points.Add(new Point("AC"));
+            points.Add(new Point("RO"));
+            points.Add(new Point("AP"));
+            points.Add(new Point("PA"));
+            points.Add(new Point("MA"));
+            points.Add(new Point("TO"));
+            points.Add(new Point("PI"));
+            points.Add(new Point("CE"));
+            points.Add(new Point("RN"));
+            points.Add(new Point("PB"));
+            points.Add(new Point("PE"));
+            points.Add(new Point("AL"));
+            points.Add(new Point("SE"));
+            points.Add(new Point("BA"));
+            points.Add(new Point("MT"));
+            points.Add(new Point("GO"));
+            points.Add(new Point("MS"));
+            points.Add(new Point("MG"));
+            points.Add(new Point("ES"));
+            points.Add(new Point("RJ"));
+            points.Add(new Point("SP"));
+            points.Add(new Point("PR"));
+            points.Add(new Point("SC"));
+            points.Add(new Point("RS"));
 
             side.Add(new Side(points.Find(x => x.Name == "RR"), points.Find(x => x.Name == "PA")));
             side.Add(new Side(points.Find(x => x.Name == "RR"), points.Find(x => x.Name == "AM")));
@@ -88,7 +88,7 @@ namespace GraphColoring
             side.Add(new Side(points.Find(x => x.Name == "PR"), points.Find(x => x.Name == "SC")));
             side.Add(new Side(points.Find(x => x.Name == "SC"), points.Find(x => x.Name == "RS")));
 
-            List<Points> pointsSorted = new List<Points>(points);
+            List<Point> pointsSorted = new List<Point>(points);
             List<Color> colors = new List<Color>();
             colors.Add(Color.Crimson);
             colors.Add(Color.Cyan);
@@ -102,7 +102,7 @@ namespace GraphColoring
             colors.Add(Color.Lavender);
             colors.Add(Color.White);
 
-            foreach (Points point in pointsSorted)
+            foreach (Point point in pointsSorted)
             {
                 point.Grau = side.FindAll(x => (x.Point1 == point) || (x.Point2 == point)).Count;
                 point.C = Color.White;
@@ -111,7 +111,7 @@ namespace GraphColoring
             pointsSorted.Sort((point1, point2) => point2.Grau.CompareTo(point1.Grau));
             
             int indexColor = 0;
-            Points firstPoint = null;
+            Point firstPoint = null;
             bool finish = false;
             while (!finish)
             {
@@ -119,7 +119,7 @@ namespace GraphColoring
 
                 firstPoint = null;
 
-                foreach (Points point in pointsSorted)
+                foreach (Point point in pointsSorted)
                 {
 
                     if (point.C == Color.White)

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\GraphColoring\\GraphColoring.csproj",
+      "projectUniqueName": "D:\\git\\ToMau\\GraphColoring.csproj",
       "projectName": "GraphColoring",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\GraphColoring\\GraphColoring.csproj",
+      "projectPath": "D:\\git\\ToMau\\GraphColoring.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\GraphColoring\\obj\\",
+      "outputPath": "D:\\git\\ToMau\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
